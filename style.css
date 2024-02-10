@@ -6,7 +6,12 @@ body {
 }
 
 .header {
-
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the content */
+    text-align: center; /* Center-align the text */
+    font-size: 24px; /* Font size */
+    font-weight: bold; /* Bold text */
 }
 
 a {
