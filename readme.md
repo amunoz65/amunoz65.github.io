@@ -14,10 +14,7 @@ Key feature: Find a Recycling Center Nearby
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Please contact team for any issues.
 
 ## Authors
 
