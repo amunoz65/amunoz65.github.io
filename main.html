@@ -9,10 +9,8 @@
 
 </head>
 <body>
-    <!-- header!!! -->
-    <div class="header"> 
-        <a href="/">header!!</a>
-    </div>
+
+    <div class="include" data-include="headerAndNav.html"></div>
 
 
     <h1>Jezas' Guide to Recycling in Chicago</h1>
@@ -41,5 +39,14 @@
 
     <img src="images/Chicago.jpeg" alt="Chicago skyline.">
 
+        <!-- JavaScript to include header and navigation -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(function(){
+        $(".include").each(function(){
+            $(this).load($(this).data('include'));
+        });
+    });
+    </script>
 </body>
 </html>
