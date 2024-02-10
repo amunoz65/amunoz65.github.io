@@ -14,12 +14,19 @@ Website with a friendly interface. Features include a welcome page with mission 
 
 ## Help
 
-Please contact team for any issues.
+Please contact team for any issues. 
 
 ## Authors
 
 J
+
 E
+
 Zainab Zaneer - zzaneer086@gmail.com
+
 A
+
 S
+
+## Project Story
+
