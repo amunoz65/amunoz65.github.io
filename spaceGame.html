@@ -19,16 +19,26 @@
             margin-left: auto;
             margin-right: auto;
         }
-    </style>    
-    <h1 class = "white-text center-text big-text">Save space from the garbage!</h1>
+
+        .content {
+            margin-top: 100px;
+        }
+    </style>  
+    
+    <script>
+        window.onload = function() {
+            var headerBar = document.querySelector('.full-width-div');
+            headerBar.style.backgroundColor = 'rgb(2,84,114)';
+        };
+    </script>
 </head>
 
 <body>
-    <div class="include" data-include="headerAndNav.html"></div>
+    <div class="include white-text" data-include="headerAndNav.html"></div>
 
+    <h1 class = "white-text center-text big-text content">Save space from the garbage!</h1>
 
-    <h2 class="white-text center-text">Use your arrow keys to move the spaceship and collect all the garbage!</h2>
-    <!-- <canvas id="gameCanvas" width="800" height="600"></canvas> -->
+    <h2 class="white-text center-text h2">Use your arrow keys to move the spaceship and collect all the garbage!</h2>
     <p class="white-text center-text">Please wait for the spaceship to finish rotating before moving forward!</p>
 
     <!-- Python terminal -->
