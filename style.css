@@ -22,3 +22,21 @@ a {
     text-align: center;
 }
 
+.information{
+    text-align: center;
+}
+
+.StartButton {
+    background-color: #2e2e2e;
+    color: rgb(253, 247, 247);
+    font-size: 30px;
+    width: 150px; /* Change this to the desired width */
+    height: 50px;
+    text-align: center;
+}
+
+.information h2 {
+    font-size: 20px; 
+}
+
+
