@@ -1,0 +1,46 @@
+<!-- mission statement page!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>A Touch of Green</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="include" data-include="headerAndNav.html"></div>
+
+    <div>
+        <h1>mission statement page</h1>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- JavaScript to include header and navigation -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(function(){
+        $(".include").each(function(){
+            $(this).load($(this).data('include'));
+        });
+    });
+    </script>
+    
+</body>
+</html>
