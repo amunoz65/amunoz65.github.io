@@ -8,26 +8,11 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- search bar function -->
-    <script>
-        function searchText() {
-            var input = document.getElementById('searchBar').value;
-            var content = document.getElementById('content');
-    
-            // Create a new RegExp object (global and case-insensitive)
-            var regex = new RegExp(input, 'gi');
-    
-            // Replace the searched text with the same text wrapped in a <mark> tag
-            content.innerHTML = content.innerHTML.replace(regex, function(match) {
-                return '<mark>' + match + '</mark>';
-            });
-        }
-    </script>
 
 </head>
 <body>
     <!-- search button created -->
-    <br><input type="text" id="searchBar" placeholder="Search...">
-    <button onclick="searchText()">Search</button>
+   
 
     <div class="include" data-include="headerAndNav.html"></div>
 
@@ -36,6 +21,11 @@
     </div>
 
     <img src="images/Chicago.jpeg" alt="Chicago skyline." class = "guide-chicago-image"><br>
+
+    <form>
+        <input type="text" id="item" name="item" placeholder="Search...">
+        <input type="submit" value="Submit">
+    </form>
 
     <style>
         .box {
@@ -75,5 +65,6 @@
             });
         });
     </script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -14,7 +14,7 @@ Website with a friendly interface. Features include a welcome page with mission 
 
 ## Help
 
-Please contact team for any issues. 
+Please contact the team for any issues. 
 
 ## Authors
 
