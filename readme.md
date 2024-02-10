@@ -10,11 +10,11 @@ Website with a friendly interface. Features include a welcome page with mission 
     Enter your address and let our program find the closest recycling centers for you. Presented in a user friendly way with all the information you need. User is able to scroll through nearby options.
 
 ### Executing program
-
+Go to amunoz65.github.io !
 
 ## Help
 
-Please contact team for any issues. 
+Please contact the team for any issues. 
 
 ## Authors
 
@@ -23,6 +23,4 @@ Estefany Morales Campos - estefanymorales1617@gmail.com
 Zainab Zaneer - zzaneer086@gmail.com
 Anthony Munoz - amunoz65@uic.edu
 Stephanie Quintana -stephquintana2002@gmail.com
-
-## Project Story
 
