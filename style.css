@@ -29,6 +29,10 @@ h1 {
     font-size: 300%;
 }
 
+h3 {
+    padding-bottom: 50px;
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -49,9 +53,7 @@ img {
     padding-top: 100px;
 }
 
-.big-text {
-    padding-bottom: 25px;
-}
+
 
 
 
