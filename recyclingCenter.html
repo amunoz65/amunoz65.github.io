@@ -17,7 +17,12 @@
             </div>
             <h3>Enter your location, and using geocoding API we'll find your center.</h3>
 
-            <input type="text" placeholder="Search...">
+            <form onsubmit="getGeoCoord(event)">
+                <input type="text" id="address" name="address" placeholder="Search...">
+                <input type="submit" value="Submit">
+            </form>
+            <input type="hidden" id="latitude" name="latitude">
+            <input type="hidden" id="longitude" name="longitude">
         </div>
 
     </div>
@@ -31,4 +36,5 @@
         });
     });
     </script>
+    <script src="script.js"></script>
 </body>
