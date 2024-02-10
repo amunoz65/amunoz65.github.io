@@ -9,6 +9,8 @@
 
 </head>
 <body>
+    <input type="text" id="searchBar" placeholder="Search...">
+    <button onclick="searchText()">Search</button>
 
     <div class="include" data-include="headerAndNav.html"></div>
 
@@ -42,6 +44,22 @@
     <div class="box black-text"> <b> Paper & Cardboard:</b> Paper, boxes, paper bags, newspaper, magazines, catalogs, mail, cardboard, paper cups, and <u>non-greasy</u> pizza boxes.  </div> <br>
     <div class="box black-text"> <b> Plastic Containers: </b> <u> CLEAN and EMPTY </u> plastic bottles (from water, soda, soap, etc.), plastic jugs (milk, juice, detergent, etc.), plastic jars (mayonnaise, peanut butter, etc.), plastic tubs (yogurt, margarine, etc.), clamshells (salads, snacks, etc.), and plastic vitamin bottles. </div><br>
 </div>
+
+<script>
+    function searchText() {
+        var input = document.getElementById('searchBar').value;
+        var content = document.getElementById('content');
+
+        // Create a new RegExp object (global and case-insensitive)
+        var regex = new RegExp(input, 'gi');
+
+        // Replace the searched text with the same text wrapped in a <mark> tag
+        content.innerHTML = content.innerHTML.replace(regex, function(match) {
+            return '<mark>' + match + '</mark>';
+        });
+    }
+</script>
+
 </body>
 
         <!-- JavaScript to do stuff -->
