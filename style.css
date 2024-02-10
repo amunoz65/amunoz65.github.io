@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(141, 167, 80);
+    background-color: #8da750;
     color: rgb(240, 248, 255);
     /* font-family: "Helvetica", "Times New Roman"; */
     font-size: 1.3em;
@@ -54,6 +54,14 @@ h1 {
 
 h3 {
     padding-bottom: 50px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.mission-statement{
+    padding: 0px 40px 0px 40px;
 }
 
 img {
