@@ -6,6 +6,7 @@ body {
     padding-top: 50px;
     width: 100%;
     height: 100%;
+    font-family: Verdana, sans-serif;
 }
 
 .header {
@@ -48,6 +49,7 @@ a {
 }
 
 h1 {
+    font-family: Georgia, serif;
     padding-top: 60px;
     font-size: 300%;
 }
