@@ -54,6 +54,15 @@
     margin-left: 50px; 
 }
 
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    background-color: #6D773A;
+    top: 0;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -72,9 +81,11 @@
         <a href="https://github.com/amunoz65/amunoz65.github.io">GitHub</a>
     </div>
 
-    <span class="menu-icon" onclick="openNav()">&#9776;</span>
+    <div class="full-width-div"> 
+        <span class="menu-icon" onclick="openNav()">&#9776;</span>
 
-	<h3 class="header-text">A Touch of Green</h3>
+        <h3 class="header-text">A Touch of Green</h3>
+    </div>
 
     <script>
         function openNav() {
