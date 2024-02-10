@@ -18,11 +18,11 @@ Please contact team for any issues.
 
 ## Authors
 
-J
-E
+Jasmine Castro - jasminecastro016@gmail.com
+Estefany Morales Campos - estefanymorales1617@gmail.com
 Zainab Zaneer - zzaneer086@gmail.com
-A
-S
+Anthony Munoz - amunoz65@uic.edu
+Stephanie Quintana -stephquintana2002@gmail.com
 
 ## Project Story
 
