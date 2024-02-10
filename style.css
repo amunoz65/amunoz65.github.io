@@ -97,6 +97,22 @@ img {
     height: 100vh;
 }
 
+.center-image {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;  
+}
+
+.mission-statement {
+    padding-top: 10px; /* You can adjust this value if needed */
+    padding-right: 60px; /* Adjust padding as needed */
+    padding-bottom: 0; /* Remove bottom padding */
+    padding-left: 60px; /* Adjust padding as needed */
+    /* padding-top: 10px;
+    padding:0px 60px;  */
+}
+
+
 .carousel {
     display: flex;
     flex-direction: column;
@@ -160,6 +176,7 @@ img {
 }
 
 
+
 .button-40 {
     background-color: #2d3e32;
     border: 1px solid transparent;
@@ -183,20 +200,24 @@ img {
     -webkit-user-select: none;
     touch-action: manipulation;
     width: auto;
-  }
-  
-  .button-40:hover {
+}
+
+.button-40:hover {
     background-color: #445946;
-  }
-  
-  .button-40:focus {
+}
+
+.button-40:focus {
     box-shadow: none;
     outline: 2px solid transparent;
     outline-offset: 2px;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .button-40 {
-      padding: .75rem 1.5rem;
+    padding: .75rem 1.5rem;
     }
-  }
+}
+
+.information {
+    padding-bottom: 150px;
+}
