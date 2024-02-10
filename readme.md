@@ -19,13 +19,9 @@ Please contact team for any issues.
 ## Authors
 
 J
-
 E
-
 Zainab Zaneer - zzaneer086@gmail.com
-
 A
-
 S
 
 ## Project Story
