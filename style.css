@@ -80,6 +80,58 @@ img {
     height: 100vh;
 }
 
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.slide.active {
+    display: flex;
+}
+
+.info {
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.arrow.left {
+    left: 0;
+}
+
+.arrow.right {
+    right: 0;
+}
+
+img {
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
 
 
 
