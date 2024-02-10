@@ -12,6 +12,10 @@
 
     <div class="include" data-include="headerAndNav.html"></div>
 
+    <div>
+        <h1 id="page-title">A Touch of Green </h1>
+    </div>
+
 
     <h1>Jezas' Guide to Recycling in Chicago</h1>
     <p>Recycling is important. It helps the environment and saves resources. Here's how to recycle in Chicago.</p>
@@ -39,14 +43,14 @@
 
     <img src="images/Chicago.jpeg" alt="Chicago skyline.">
 
-        <!-- JavaScript to include header and navigation -->
+        <!-- JavaScript to do stuff -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-    $(function(){
-        $(".include").each(function(){
-            $(this).load($(this).data('include'));
+        $(function(){
+            $(".include").each(function(){
+                $(this).load($(this).data('include'));
+            });
         });
-    });
     </script>
 </body>
 </html>
