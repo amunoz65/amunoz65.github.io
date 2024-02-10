@@ -1,1 +1,1 @@
-This is the readme
+Users will be able to learn about recycling in the Chicago area and search their product to see if it can be recycled.
