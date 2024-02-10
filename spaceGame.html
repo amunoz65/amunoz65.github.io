@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Save spsace from the garbage!</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: rgb(20, 22, 44);
+        }
 
+        .white-text {
+            color: white;
+        }
+
+        .center-text {
+            text-align: center;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>    
+    <title class = "white-text center-text">Save space from the garbage!</title>
 </head>
-<body>
 
+<body>
     <div class="include" data-include="headerAndNav.html"></div>
 
-    <div class="big-text">
-        <h1>Use your arrow keys to move the spaceship and collect all the garbage!</h1>
-    </div>
+
+    <h1 class="white-text center-text">Use your arrow keys to move the spaceship and collect all the garbage!</h1>
     <!-- <canvas id="gameCanvas" width="800" height="600"></canvas> -->
-    <p>Please wait for the spaceship to finish rotating before moving forward!</p>
+    <p class="white-text center-text">Please wait for the spaceship to finish rotating before moving forward!</p>
 
     <!-- Python terminal -->
-    <iframe src="https://emoral37-9980.trinket.io/sites/save-space" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+    <iframe class = "center" src="https://emoral37-9980.trinket.io/sites/save-space" width="40%" height="500" frameborder="0" marginwidth="0" marginheight="0"></iframe>
 
 
     <!-- JavaScript to include header and navigation -->
