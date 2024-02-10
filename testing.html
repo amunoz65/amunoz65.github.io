@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* CSS for the side navigation */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* CSS for the menu icon */
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #333;
+}
+
+/* CSS for the header text */
+.header-text {
+  margin-left: 50px; /* Adjust the spacing */
+}
+
+/* CSS for the container */
+.header-container {
+  background-color: #333; /* Background color for the strip */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<!-- Container for the navigation and header title -->
+<div class="header-container">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#">Mission Statement</a>
+    <a href="#">Find my Recycling Center</a>
+    <a href="#">Can This be Recycled?</a>
+    <a href="#">Learn More</a>
+  </div>
+
+  <!-- Use a class for the menu icon -->
+  <span class="menu-icon" onclick="openNav()">&#9776;</span>
+
+  <!-- Use a class for the header text -->
+  <h3 class="header-text" id="page-title">A Touch of Green</h3>
+</div>
+
+<script>
+// Function to set the page title dynamically
+function setPageTitle(title) {
+  document.getElementById("page-title").innerText = title;
+}
+
+// Example: Set the page title for the current page
+// Replace "Your Page Title" with the actual title of your page
+setPageTitle("Your Page Title");
+
+// Side navigation functions
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+</body>
+</html>

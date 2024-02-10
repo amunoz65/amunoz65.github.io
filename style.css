@@ -1,8 +1,9 @@
 body {
     background-color: rgb(141, 167, 80);
     color: rgb(240, 248, 255);
-    font-family: "Helvetica", "Times New Roman";
+    /* font-family: "Helvetica", "Times New Roman"; */
     font-size: 1.3em;
+    padding-top: 60px;
 }
 
 .header {
@@ -17,3 +18,29 @@ body {
 a {
     color: rgb(240, 248, 255);
 }
+
+.big-text{
+    text-align: center;
+}
+
+h1 {
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.nature-bg-div{
+    background-image: url(‘images/nature.jpeg’);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #FFFFFF;
+    align-items: center;
+    text-align:center;
+}
+

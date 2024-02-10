@@ -1,4 +1,4 @@
-<!-- code for header, navigation, and footer -->
+<!-- code for header, navigation, title and footer -->
 <!-- Includes styling here, instead of in the CSS -->
 
 <!DOCTYPE html>
@@ -47,11 +47,20 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    color: #333;
+    color: #f1f1f1;
 }
 
 .header-text {
     margin-left: 50px; 
+}
+
+.full-width-div {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0;
+    background-color: #6D773A;
+    top: 0;
 }
 
 @media screen and (max-height: 450px) {
@@ -65,15 +74,18 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="missionStatement.html">Mission Statement</a>
-        <a href="/">Find my Recycling Center</a>
-        <a href="/">Can This be Recycled?</a>
+        <a href="recyclingCenter.html">Find my Recycling Center</a>
+        <a href="search.html">Can This be Recycled?</a>
+        <a href="spaceGame.html">Save Space Game!</a>
         <a href="infoghraphics.html">Learn More</a>
-        <a href="/">GitHub</a>
+        <a href="https://github.com/amunoz65/amunoz65.github.io">GitHub</a>
     </div>
 
-    <span class="menu-icon" onclick="openNav()">&#9776;</span>
+    <div class="full-width-div"> 
+        <span class="menu-icon" onclick="openNav()">&#9776;</span>
 
-	<h3 class="header-text">A Touch of Green</h3>
+        <h3 class="header-text">A Touch of Green</h3>
+    </div>
 
     <script>
         function openNav() {
@@ -83,7 +95,10 @@
         function closeNav() {
           document.getElementById("mySidenav").style.width = "0";
         }
+
     </script>
+
+
 </body>
 
 </head>

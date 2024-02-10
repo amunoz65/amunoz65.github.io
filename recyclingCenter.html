@@ -1,20 +1,24 @@
-<!-- starting page, name and button to start -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>A Touch of Green</title>
+    <title>Find your nearest recycling centers!</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
+
     <div class="include" data-include="headerAndNav.html"></div>
 
-    <div>
-        <h1 id="page-title">A Touch of Green </h1>
+    <div class="nature-bg-div">
+        <div class="big-text">
+            <h1>Find a Recycling Center Nearby</h1>
+        </div>
+        <h3>Using geocoding API</h3>
+
+        <input type="text" placeholder="Search...">
     </div>
-    
+
     <!-- JavaScript to include header and navigation -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
@@ -24,6 +28,4 @@
         });
     });
     </script>
-
 </body>
-</html>
