@@ -90,6 +90,20 @@ img {
     height: 100vh;
 }
 
+.center-image {
+    width: 100%;
+    padding: 50px 0px;  
+}
+
+.mission-statement {
+    padding-top: 10px; /* You can adjust this value if needed */
+    padding-right: 60px; /* Adjust padding as needed */
+    padding-bottom: 0; /* Remove bottom padding */
+    padding-left: 60px; /* Adjust padding as needed */
+    /* padding-top: 10px;
+    padding:0px 60px;  */
+}
+
 
 
 
