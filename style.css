@@ -44,6 +44,7 @@ a {
 }
 
 h1 {
+    padding-top: 60px;
     font-size: 300%;
 }
 
@@ -70,4 +71,11 @@ img {
     height: 100%;
     padding-top: 100px;
 }
+
+.big-image {
+    height: 500px;
+}
+
+
+
 
