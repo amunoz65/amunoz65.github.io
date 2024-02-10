@@ -94,5 +94,10 @@ img {
     width: 100%;
 }
 
+.guide-text{
+    padding: 50px 50px 100px 50px;
+    line-height: 1.5;
+    font-size: larger;
+}
 
 
