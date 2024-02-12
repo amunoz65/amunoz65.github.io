@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyAF3gR0NJ7LexQhxJIL_H9QA-qmcLzeqi4'
+const API_KEY = 'your_api_key_here'; // Replace with your own API key
 
 // Base URL for the Google Geocoding API
 const geo_url = 'https://maps.googleapis.com/maps/api/geocode/json?'
